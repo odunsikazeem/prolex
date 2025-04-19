@@ -1,0 +1,61 @@
+body{
+  height: 3000px;
+  padding-top: 50px;
+}
+
+.header{
+font-family: "Roboto Condensed", sans-serif;
+position: fixed;
+background-color: white;
+ 
+top: 0;
+right: 0;
+left: 0;
+height: 50px;
+}
+
+.company-name{
+display: flex;
+justify-content: center;
+color: rgb(72, 64, 64);
+
+}
+.company-span{
+font-family: "Spirax", system-ui;
+font-size: xx-large;
+
+}
+
+.nav-bar{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-left: 100px;
+margin-right: 100px; 
+cursor: pointer; 
+transition: h3 1s;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color:rgb(128, 125, 125);  
+}
+
+.nav-bar h3 {
+  transition: color 0.15s;
+}
+
+.nav-bar h3:hover{
+  color: black;
+  font-weight: bold;
+}
+
+h1{
+margin-bottom: 30px; 
+}
+
+h3{
+margin-top: 0;
+font-size: small;
+font-weight: 400;
+color: rgb(128, 125, 125);
+}
+
