@@ -1,20 +1,23 @@
 body{
   height: 3000px;
-  padding-top: 50px;
+  padding-top: 115px;
+  background-color: rgb(251, 245, 245);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .header{
-font-family: "Roboto Condensed", sans-serif;
 position: fixed;
-background-color: white;
- 
 top: 0;
 right: 0;
 left: 0;
 height: 50px;
 }
+h1{
+  margin-bottom: 30px; 
+  }
 
 .company-name{
+background-color: white;
 display: flex;
 justify-content: center;
 color: rgb(72, 64, 64);
@@ -29,9 +32,8 @@ font-size: xx-large;
 .nav-bar{
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
-margin-left: 100px;
-margin-right: 100px; 
+justify-content: space-around;
+background-color: white;
 cursor: pointer; 
 transition: h3 1s;
 border-bottom-width: 1px;
@@ -48,9 +50,6 @@ border-bottom-color:rgb(128, 125, 125);
   font-weight: bold;
 }
 
-h1{
-margin-bottom: 30px; 
-}
 
 h3{
 margin-top: 0;
@@ -58,4 +57,5 @@ font-size: small;
 font-weight: 400;
 color: rgb(128, 125, 125);
 }
+
 
